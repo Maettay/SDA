@@ -1,7 +1,7 @@
 package pl.com.empas.java_introductory_course.inheritance.average;
 
 public class Vehicle {
-    protected String desription = "Vehicle";
+    protected String desription = "vehicle";
 
     private int yearOfProduction = 1980;
 
@@ -10,7 +10,7 @@ public class Vehicle {
     }
 
     public void move() {
-        System.out.println("Vehicle is moving");
+        System.out.println("vehicle is moving");
     }
 
     private void whoAmI() {
